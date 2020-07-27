@@ -1,0 +1,19 @@
+.logo {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+
+  &__title {
+    color: #bf0785;
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 17.5px;
+    letter-spacing: -0.5px;
+  }
+}

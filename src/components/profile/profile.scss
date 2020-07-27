@@ -1,0 +1,27 @@
+.profile {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    background: rgb(191, 7, 133);
+    font-size: 0;
+    line-height: 0;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 10px;
+  }
+
+  &__icon {
+    font-size: 28px;
+
+    path {
+      stroke: #fff;
+    }
+  }
+
+  &__name {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,45 @@
+html,
+body {
+  background: #1e1739;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  min-height: 100vh;
+  width: 100%;
+}
+
+// =========== ASIDE SECTION
+
+.aside {
+  background: darken(#1e1739, 2%);
+  padding: 50px 40px;
+  display: grid;
+  grid-template-rows: 47px 1fr auto;
+}
+.nav {
+  margin: 70px 0 0 17px;
+
+  &__item {
+    list-style-type: circle;
+    color: #fff;
+    margin-bottom: 15px;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    transition: color 0.8s ease-in-out;
+
+    &:hover {
+      color: rgb(191, 7, 133);
+    }
+  }
+}

@@ -1,0 +1,75 @@
+.register {
+  &__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__form {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  &__label {
+    display: block;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 0 0 15px;
+  }
+
+  &__input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 5px 10px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &__button {
+    background: #bf0785;
+    color: #fff;
+    font-size: 18px;
+    line-height: 0;
+    padding: 18px 0px 20px;
+    width: 100%;
+    margin: 30px auto 10px;
+    display: block;
+    max-width: 300px;
+  }
+
+  &__bottom {
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__link {
+      text-decoration: none;
+      color: #bf0785;
+      text-decoration: none;
+      margin-left: 8px;
+      font-weight: 400;
+
+      &:hover {
+        color: darken(#bf0785, 5%);
+      }
+    }
+  }
+}
